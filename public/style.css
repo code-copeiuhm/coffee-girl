@@ -1,0 +1,27 @@
+h1{
+    margin-bottom: 48px;
+}
+.one{
+    grid-column: 1;
+    grid-row: 1;
+}
+.two{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 15px;
+}
+.three{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.box{
+
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 10px 25%;
+}
