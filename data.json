@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "bean-types": "[string]",
+    "pots": "[string]",
+    "additions": {
+      "milk-types": "[string]",
+      "syrup-types": "[string]",
+      "sweetener-types": "[string]",
+      "alcohol-types": "[string]",
+      "spice-types": "[string]"
+    }
+  }
+}
