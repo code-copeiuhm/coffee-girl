@@ -38,7 +38,7 @@ let machines = [
     }
 ]
 
-document.getElementById("coffee-machines").onchange = makeList;
+document.getElementById("coffee_machines").onchange = makeList;
 
 const removeChilds = (parent) => {
     while (parent.lastChild) {
