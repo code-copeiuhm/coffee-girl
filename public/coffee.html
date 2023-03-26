@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Coffee-Girl with hunga munga lungas - alex 2k23</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Coffee-Girl with hunga munga lungas - alex 2k23</title>
 </head>
 <body onload="showCoffeeMachines()">
 
@@ -12,23 +12,23 @@
     <div class="one">
         <h1>Welcome to Coffee-Maker</h1>
     </div>
-  <div class="two" style="background-color: #EFEFEF">
-      <div class="box">
-        <p style="margin-top: 0; font-size: larger">Please select your coffee of choice and your coffee will be brewed for you.</p>
-      </div>
-    <div class="box">
-    <form>
-      <p style="margin-top: 0">Choose your coffee machine:</p>
-      <select id="coffee-machines">
-      </select>
-      <p>Choose your coffee:</p>
-      <select id="coffees">
-      </select>
-      <br><br>
-      <input type="button" value="Brew" id="coffee-button" onclick="submit()">
-    </form>
+    <div class="two" style="background-color: #EFEFEF">
+        <div class="box">
+            <p style="margin-top: 0; font-size: larger">Please select your coffee of choice and your coffee will be brewed for you.</p>
+        </div>
+        <div class="box">
+            <form action="/brew" method="get">
+                <p style="margin-top: 0">Choose your coffee machine:</p>
+                <select id="coffee_machines">
+                </select>
+                <p>Choose your coffee:</p>
+                <select id="coffees">
+                </select>
+                <br><br>
+                <input type="submit" value="Brew" id="coffee-button">
+            </form>
+        </div>
     </div>
-  </div>
 </div>
 
 
