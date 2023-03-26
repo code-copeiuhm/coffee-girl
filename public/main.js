@@ -48,7 +48,7 @@ const removeChilds = (parent) => {
 
 
 function showCoffeeMachines(){
-    let select_element = document.getElementById("coffee-machines");
+    let select_element = document.getElementById("coffee_machines");
     create_option("None", "none", select_element);
     for (i = 0; i < machines.length; i++){
         create_option(`Kaffemaskine ${i} : ${machines[i].Machine.physical_location}`,
@@ -58,8 +58,8 @@ function showCoffeeMachines(){
 }
 
 function makeList(){
-    let chosen_coffee_machine = document.getElementById("coffee-machines").value;
-    let select_element = document.getElementById("coffee-machines");
+    let chosen_coffee_machine = document.getElementById("coffee_machines").value;
+    let select_element = document.getElementById("coffee_machines");
     let coffees_element = document.getElementById("coffees");
     removeChilds(coffees_element);
 
